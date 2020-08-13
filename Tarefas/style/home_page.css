@@ -1,0 +1,15 @@
+#adicionar-tarefa,#todas-tarefas{
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    width:75%;
+}
+
+#adicionar-tarefa-input{
+    width: 100%;;
+}
+
+@media(max-width:576px){
+    #adicionar-tarefa,#todas-tarefas{
+        width:100%;
+    }
+}

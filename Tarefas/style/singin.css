@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    color: whitesmoke;
+}
+
+label{
+    color: white;
+}
+
+#content{
+    height:100%;
+}
+
+label{
+    cursor: pointer;
+}
+
+main{
+    height: 100%;
+    overflow-y: hidden;
+}
+form{
+    border:1px solid #9c9c9c;
+    border-radius:5px;
+    max-width: 600px;
+}
+
+#link{
+    color: royalblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+#link:hover{
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+@media(mix-width:576px){
+    body{
+       height: 200vh;
+       background-color: orange;
+    }
+}

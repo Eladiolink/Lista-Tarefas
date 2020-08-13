@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singin</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--  CUSTOM CSS -->
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/singin.css">
+</head>
+
+<body>
+    <div id="content" class="">
+       
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+            <a href="index.html" class="navbar-brand">We Plus</a>
+            <div class="ml-auto" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="singIn.php" class="nav-link active">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="d-flex align-items-center justify-content-center">
+     
+            <form id="form" class="d-flex flex-column align-items-center justify-content-start" action="../security/Tarefas/singup.php" method="POST">
+                <div id="logs" class="mt-3"></div>
+                <div class="d-flex">
+                    <div class="form-group px-3 mt-3 col-6">
+                        <label class="text-light" for="nome">Nome</label>
+                        <input id="nome" class="form-control" name="nome" required type="text">
+
+                    </div>
+
+                    <div class="form-group px-3 mt-3 col-6">
+                        <label class="text-light" for="sobrenome">Sobrenome</label>
+                        <input id="sobrenome" class="form-control" name="sobrenome" required type="text">
+
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label class="text-light" for="sexo">Sexo</label>
+                    <div class="form-check">
+                        <input type="radio" name="sexo" value="m" id="homem">
+                        <label class="text-light" for="">Masculino</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" value="f" name="sexo" id="mulher">
+                        <label class="text-light" for="">Feminino</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="radio" value="o" name="sexo" id="outro">
+                        <label class="text-light" for="">Outro</label>
+                    </div>
+                </div>
+                <div class="form-group px-3 mt-3  col-12">
+                    <label class="text-light" for="email">Email</label>
+                    <input id="email" class="form-control" name="email" required type="email">
+                </div>
+
+                <div class="d-flex">
+                    <div class="form-group px-3 mt-3 col-6">
+                        <label class="text-light" for="senha">Senha</label>
+                        <input id="senha" class="form-control" name="senha" required type="password">
+
+                    </div>
+
+                    <div class="form-group px-3 mt-3 col-6">
+                        <label class="text-light" for="c_senha">Confirmar Senha</label>
+                        <input id="c_senha" class="form-control" required type="password">
+
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <input class="checkbox" type="checkbox" name="termos" id="termos">
+                    <span class="text-light">Eu concordo com todos os termos de serviço</span>
+                </div>
+                <div class="ml-auto mr-3 mb-3">
+                    <button id="btn" type="submit" onclick="checkbox()" class="btn btn-outline-success px-4">Cadastrar</button>
+                </div>
+
+            </form>
+
+        </main>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+<!-- BOOTSTRAO JS -->
+
+<script src="./scripts/singup.js"></script>
+
+</html> 

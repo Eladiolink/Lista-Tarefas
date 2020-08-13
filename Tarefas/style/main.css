@@ -1,0 +1,15 @@
+body{
+    height:100vh;
+    background-color: #181a1b;
+}
+
+
+ul a{
+    color: #c4c4c4;
+    cursor: pointer;
+}
+
+
+ul a:hover, ul a.active{
+   color: white;
+}
