@@ -1,5 +1,5 @@
 # Lista-Tarefas
-  Uma Aplicação Web simples, para a inserção, listagem e gerenciamento  de tarefas
+  Uma Aplicação Web simples, para a inserção, listagem e gerenciamento  de tarefas.
 Nela foi utilizada as tecnologias: HTML5,CSS3,Bootstrap,Javascript,JQuery,PHP,MySQL.Utilizando HTML5,CSS3 para fazer toda a parte visual do site junto a biblioteca Bootstrap para facilitar na criação, o Javascript para fazer validações do formulário, algumas automações simples e junto ao JQuery para utilizar o AJAX afim de melhorar a expêriencia do usuário, que é carregado as tarefas adicionadas sem a necessidade de recaregar a página.Com o PHP para tratar os dados no lado so servidor da aplicação e interagir com a base de dados, que nesse contexto utilizou-se o MySQL. 
 
 
